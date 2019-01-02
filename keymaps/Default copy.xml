@@ -3,8 +3,16 @@
   <action id="CloseEditor">
     <keyboard-shortcut first-keystroke="ctrl w" />
   </action>
-  <action id="EditorSelectWord">
+  <action id="EditorSelectWord" />
+  <action id="GotoLine" />
+  <action id="SelectAllOccurrences">
+    <keyboard-shortcut first-keystroke="shift ctrl alt g" />
+  </action>
+  <action id="SelectNextOccurrence">
     <keyboard-shortcut first-keystroke="ctrl g" />
   </action>
-  <action id="GotoLine" />
+  <action id="UnselectPreviousOccurrence">
+    <keyboard-shortcut first-keystroke="ctrl alt g" />
+  </action>
+  <action id="hg4idea.QGotoFromPatches" />
 </keymap>
