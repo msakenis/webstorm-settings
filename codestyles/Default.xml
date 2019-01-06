@@ -1,11 +1,5 @@
 <code_scheme name="Default" version="173">
-  <JSCodeStyleSettings version="0">
-    <option name="FORCE_SEMICOLON_STYLE" value="true" />
-    <option name="USE_DOUBLE_QUOTES" value="false" />
-    <option name="FORCE_QUOTE_STYlE" value="true" />
-    <option name="ENFORCE_TRAILING_COMMA" value="WhenMultiline" />
-  </JSCodeStyleSettings>
-  <codeStyleSettings language="JavaScript">
+  <codeStyleSettings language="PHP">
     <indentOptions>
       <option name="INDENT_SIZE" value="2" />
       <option name="CONTINUATION_INDENT_SIZE" value="2" />
