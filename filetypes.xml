@@ -3,6 +3,16 @@
     <extensionMap>
       <mapping pattern="*.env*" type=".env file" />
       <mapping pattern=".env-default" type=".env file" />
+      <mapping ext="tps" type="DBN-PSQL" />
+      <mapping ext="tpe" type="DBN-PSQL" />
+      <mapping ext="pks" type="DBN-PSQL" />
+      <mapping ext="fnc" type="DBN-PSQL" />
+      <mapping ext="pkg" type="DBN-PSQL" />
+      <mapping ext="pkb" type="DBN-PSQL" />
+      <mapping ext="tpb" type="DBN-PSQL" />
+      <mapping ext="prc" type="DBN-PSQL" />
+      <mapping ext="trg" type="DBN-PSQL" />
+      <mapping ext="vw" type="DBN-SQL" />
       <mapping pattern="CNAME" type="PLAIN_TEXT" />
       <mapping pattern="run_support_site_updater.js" type="PLAIN_TEXT" />
       <mapping pattern=".nvmrc" type="PLAIN_TEXT" />
@@ -14,9 +24,9 @@
       <mapping ext="php" type="PLAIN_TEXT" />
       <removed_mapping pattern=".env*" approved="true" type=".env file" />
       <removed_mapping pattern=".env-sample" approved="true" type="PLAIN_TEXT" />
-      <removed_mapping pattern="Dockerfile-client" approved="true" type="PLAIN_TEXT" />
-      <removed_mapping pattern="postByDealIds.js" approved="true" type="PLAIN_TEXT" />
       <removed_mapping pattern="veikiantis_prototipas" approved="true" type="PLAIN_TEXT" />
+      <removed_mapping pattern="postByDealIds.js" approved="true" type="PLAIN_TEXT" />
+      <removed_mapping pattern="Dockerfile-client" approved="true" type="PLAIN_TEXT" />
     </extensionMap>
   </component>
 </application>
