@@ -23,11 +23,12 @@
       <mapping ext="routes" type="PLAIN_TEXT" />
       <mapping ext="binast" type="PLAIN_TEXT" />
       <mapping ext="php" type="PLAIN_TEXT" />
+      <mapping ext="conf" type="nginx file type" />
       <removed_mapping pattern=".env*" approved="true" type=".env file" />
       <removed_mapping pattern=".env-sample" approved="true" type="PLAIN_TEXT" />
-      <removed_mapping pattern="veikiantis_prototipas" approved="true" type="PLAIN_TEXT" />
-      <removed_mapping pattern="postByDealIds.js" approved="true" type="PLAIN_TEXT" />
       <removed_mapping pattern="Dockerfile-client" approved="true" type="PLAIN_TEXT" />
+      <removed_mapping pattern="postByDealIds.js" approved="true" type="PLAIN_TEXT" />
+      <removed_mapping pattern="veikiantis_prototipas" approved="true" type="PLAIN_TEXT" />
     </extensionMap>
   </component>
 </application>
