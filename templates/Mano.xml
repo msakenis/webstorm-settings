@@ -53,4 +53,14 @@
       <option name="JAVA_SCRIPT" value="true" />
     </context>
   </template>
+  <template name="pa" value="const results = await Promise.all(data.map(async (doc) =&gt; await helper({doc})));&#10;$END$" description="Promise.all" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="ie" value="{error: {code: '#werifgdjig4', message: 'INTERNAL_ERROR'}}" description="INTERNAL_ERROR" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
 </templateSet>
