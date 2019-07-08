@@ -63,4 +63,32 @@
       <option name="JAVA_SCRIPT" value="true" />
     </context>
   </template>
+  <template name="ifs" value="if(_get($VAR$, 'data.success') !== true) {&#10;  $END$&#10;}" description="if success" toReformat="false" toShortenFQNames="true">
+    <variable name="VAR" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="ife" value="if(_get($VAR$, 'error.message')) {&#10;  $END$&#10;}" description="if error" toReformat="true" toShortenFQNames="true">
+    <variable name="VAR" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="r" value="return $END$" description="return" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="re" value="return {error: {code: '#aaaaaaaaa', message: 'INVALID_$ENG$'}, data: null};" description="return error" toReformat="true" toShortenFQNames="true">
+    <variable name="ENG" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="rs" value="return {error: null, data: {success: true, $END$}};" description="return success" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
 </templateSet>
