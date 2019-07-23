@@ -14,10 +14,6 @@
     <keyboard-shortcut first-keystroke="shift insert" />
     <keyboard-shortcut first-keystroke="windows" second-keystroke="v" />
   </action>
-  <action id="ActivateDebugToolWindow">
-    <keyboard-shortcut first-keystroke="alt 5" />
-    <keyboard-shortcut first-keystroke="altGraph 5" />
-  </action>
   <action id="ActivateFindToolWindow">
     <keyboard-shortcut first-keystroke="alt 3" />
     <keyboard-shortcut first-keystroke="altGraph 3" />
@@ -26,25 +22,8 @@
     <keyboard-shortcut first-keystroke="alt 1" />
     <keyboard-shortcut first-keystroke="altGraph 1" />
   </action>
-  <action id="ActivateRunToolWindow">
-    <keyboard-shortcut first-keystroke="alt 4" />
-    <keyboard-shortcut first-keystroke="altGraph 4" />
-  </action>
-  <action id="ActivateStructureToolWindow">
-    <keyboard-shortcut first-keystroke="alt 7" />
-    <keyboard-shortcut first-keystroke="altGraph 7" />
-  </action>
-  <action id="ActivateTODOToolWindow">
-    <keyboard-shortcut first-keystroke="alt 6" />
-    <keyboard-shortcut first-keystroke="altGraph 6" />
-  </action>
   <action id="ActivateTerminalToolWindow">
-    <keyboard-shortcut first-keystroke="alt f12" />
-    <keyboard-shortcut first-keystroke="altGraph f12" />
-  </action>
-  <action id="ActivateVersionControlToolWindow">
-    <keyboard-shortcut first-keystroke="alt 9" />
-    <keyboard-shortcut first-keystroke="altGraph 8" />
+    <keyboard-shortcut first-keystroke="altGraph 2" />
   </action>
   <action id="CloseActiveTab" />
   <action id="CloseEditor">
