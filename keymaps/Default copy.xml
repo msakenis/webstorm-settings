@@ -38,6 +38,14 @@
   <action id="Editor Paste">
     <keyboard-shortcut first-keystroke="windows" second-keystroke="v" />
   </action>
+  <action id="EditorAddOrRemoveCaret">
+    <mouse-shortcut keystroke="alt button1" />
+    <mouse-shortcut keystroke="altGraph button1" />
+  </action>
+  <action id="EditorAddRectangularSelectionOnMouseDrag">
+    <mouse-shortcut keystroke="shift control alt button1" />
+    <mouse-shortcut keystroke="shift altGraph button1" />
+  </action>
   <action id="EditorDeleteLine">
     <keyboard-shortcut first-keystroke="ctrl y" />
     <keyboard-shortcut first-keystroke="windows" second-keystroke="back_space" />
