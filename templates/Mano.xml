@@ -91,4 +91,15 @@
       <option name="JAVA_SCRIPT" value="true" />
     </context>
   </template>
+  <template name="ed" value="export default " description="export default" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="cw" value="console.warn('#$CODE$ ', $END$)" description="console.warn()" toReformat="false" toShortenFQNames="true">
+    <variable name="CODE" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
 </templateSet>
