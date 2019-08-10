@@ -14,20 +14,17 @@
       <option name="JAVA_SCRIPT" value="true" />
     </context>
   </template>
-  <template name="le" value="logger.error(`#$CODE$ $END$`)" description="logger.error(`#$CODE$`)" toReformat="true" toShortenFQNames="true">
-    <variable name="CODE" expression="" defaultValue="" alwaysStopAt="true" />
+  <template name="le" value="logger.error(`#aaaaaaa $END$`)" description="logger.error(`#aaaaaaa `)" toReformat="true" toShortenFQNames="true">
     <context>
       <option name="JAVA_SCRIPT" value="true" />
     </context>
   </template>
-  <template name="ce" value="console.error(`#$CODE$ $END$`)" description="console.error(`#$CODE$`)" toReformat="true" toShortenFQNames="true">
-    <variable name="CODE" expression="" defaultValue="" alwaysStopAt="true" />
+  <template name="ce" value="console.error(`#aaaaaaa $END$`)" description="console.error(`#aaaaaaaa `)" toReformat="true" toShortenFQNames="true">
     <context>
       <option name="JAVA_SCRIPT" value="true" />
     </context>
   </template>
-  <template name="cl" value="console.log(`#$CODE$ `, $END$)" description="console.log(`#$CODE$`)" toReformat="true" toShortenFQNames="true">
-    <variable name="CODE" expression="" defaultValue="" alwaysStopAt="true" />
+  <template name="cl" value="console.log(`#aaaaaaa `, $END$)" description="console.log(`#aaaaaaa `)" toReformat="true" toShortenFQNames="true">
     <context>
       <option name="JAVA_SCRIPT" value="true" />
     </context>
@@ -47,8 +44,7 @@
       <option name="JAVA_SCRIPT" value="true" />
     </context>
   </template>
-  <template name="ld" value="logger.debug(`#$CODE$ $END$`)" description="logger.debug(`#$CODE$`)" toReformat="true" toShortenFQNames="true">
-    <variable name="CODE" expression="" defaultValue="" alwaysStopAt="true" />
+  <template name="ld" value="logger.debug(`#aaaaaaa $END$`)" description="logger.debug(`#aaaaaaa `)" toReformat="true" toShortenFQNames="true">
     <context>
       <option name="JAVA_SCRIPT" value="true" />
     </context>
@@ -96,8 +92,7 @@
       <option name="JAVA_SCRIPT" value="true" />
     </context>
   </template>
-  <template name="cw" value="console.warn('#$CODE$ ', $END$)" description="console.warn()" toReformat="false" toShortenFQNames="true">
-    <variable name="CODE" expression="" defaultValue="" alwaysStopAt="true" />
+  <template name="cw" value="console.warn('#aaaaaaa ', $END$)" description="console.warn(`#aaaaaaa `)" toReformat="false" toShortenFQNames="true">
     <context>
       <option name="JAVA_SCRIPT" value="true" />
     </context>
