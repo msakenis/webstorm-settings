@@ -19,12 +19,14 @@
       <option name="JAVA_SCRIPT" value="true" />
     </context>
   </template>
-  <template name="ce" value="console.error(`#aaaaaaa $END$`)" description="console.error(`#aaaaaaaa `)" toReformat="true" toShortenFQNames="true">
+  <template name="ce" value="console.error(`#aaaaaaa $STOP$`, $END$)" description="console.error(`#aaaaaaaa `)" toReformat="true" toShortenFQNames="true">
+    <variable name="STOP" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="JAVA_SCRIPT" value="true" />
     </context>
   </template>
-  <template name="cl" value="console.log(`#aaaaaaa `, $END$)" description="console.log(`#aaaaaaa `)" toReformat="true" toShortenFQNames="true">
+  <template name="cl" value="console.log(`#aaaaaaa $STOP$`, $END$)" description="console.log(`#aaaaaaa `)" toReformat="true" toShortenFQNames="true">
+    <variable name="STOP" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="JAVA_SCRIPT" value="true" />
     </context>
@@ -92,7 +94,8 @@
       <option name="JAVA_SCRIPT" value="true" />
     </context>
   </template>
-  <template name="cw" value="console.warn('#aaaaaaa ', $END$)" description="console.warn(`#aaaaaaa `)" toReformat="false" toShortenFQNames="true">
+  <template name="cw" value="console.warn(`#aaaaaaa $STOP$`, $END$)" description="console.warn(`#aaaaaaa `)" toReformat="false" toShortenFQNames="true">
+    <variable name="STOP" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="JAVA_SCRIPT" value="true" />
     </context>
