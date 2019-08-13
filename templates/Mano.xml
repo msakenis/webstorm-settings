@@ -97,4 +97,9 @@
       <option name="JAVA_SCRIPT" value="true" />
     </context>
   </template>
+  <template name="a" value="aaaaaaaaa" description="aaaaaaaaa" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
 </templateSet>
