@@ -7,6 +7,7 @@
       <mapping pattern="*.js.flow" type="Flow" />
       <mapping pattern="byCouponId" type="PLAIN_TEXT" />
       <mapping pattern="run_support_site_updater.js" type="PLAIN_TEXT" />
+      <mapping pattern="_redirects" type="PLAIN_TEXT" />
       <mapping pattern="backward65536" type="PLAIN_TEXT" />
       <mapping pattern=".dockerignore" type="PLAIN_TEXT" />
       <mapping pattern="CookiePolicy" type="PLAIN_TEXT" />
