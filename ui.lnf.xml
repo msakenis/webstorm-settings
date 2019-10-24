@@ -2,7 +2,7 @@
   <component name="UISettings">
     <option name="CONSOLE_COMMAND_HISTORY_LIMIT" value="1000" />
     <option name="PRESENTATION_MODE_FONT_SIZE" value="22" />
-    <option name="RECENT_FILES_LIMIT" value="500" />
-    <option name="RECENT_LOCATIONS_LIMIT" value="250" />
+    <option name="RECENT_FILES_LIMIT" value="5000" />
+    <option name="RECENT_LOCATIONS_LIMIT" value="2500" />
   </component>
 </application>
