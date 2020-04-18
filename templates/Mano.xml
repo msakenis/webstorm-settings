@@ -120,4 +120,11 @@
       <option name="JAVA_SCRIPT" value="true" />
     </context>
   </template>
+  <template name="adf" value="advancedFilters: {&#10;      $and: [&#10;        {field: 'invoiceId', comparison: '=', isRequired: true, value: invoiceId},&#10;      ],&#10;    }," description="advancedFilters" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+      <option name="JSX_HTML" value="false" />
+      <option name="JS_CLASS" value="false" />
+    </context>
+  </template>
 </templateSet>
