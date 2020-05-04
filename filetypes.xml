@@ -15,10 +15,11 @@
       <mapping pattern=".htpasswd" type="PLAIN_TEXT" />
       <mapping pattern="backward65536" type="PLAIN_TEXT" />
       <mapping pattern="CNAME" type="PLAIN_TEXT" />
+      <mapping pattern="pre-commit" type="PLAIN_TEXT" />
       <mapping ext="routes" type="PLAIN_TEXT" />
       <mapping ext="binast" type="PLAIN_TEXT" />
-      <mapping ext="pem" type="PLAIN_TEXT" />
       <removed_mapping ext="cmd" approved="true" type="PLAIN_TEXT" />
+      <removed_mapping ext="log" approved="true" type="PLAIN_TEXT" />
       <removed_mapping ext="bat" approved="true" type="PLAIN_TEXT" />
       <removed_mapping ext="bat" approved="true" type="PLAIN_TEXT" />
       <removed_mapping pattern="Dockerfile-client" approved="true" type="PLAIN_TEXT" />
