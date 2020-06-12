@@ -11,16 +11,6 @@
     <option name="HEX_COLOR_UPPER_CASE" value="true" />
     <option name="HEX_COLOR_LONG_FORMAT" value="true" />
   </CssCodeStyleSettings>
-  <HTMLCodeStyleSettings>
-    <option name="HTML_DO_NOT_INDENT_CHILDREN_OF" value="" />
-  </HTMLCodeStyleSettings>
-  <JSCodeStyleSettings version="0">
-    <option name="FORCE_SEMICOLON_STYLE" value="true" />
-    <option name="USE_DOUBLE_QUOTES" value="false" />
-    <option name="FORCE_QUOTE_STYlE" value="true" />
-    <option name="ENFORCE_TRAILING_COMMA" value="WhenMultiline" />
-    <option name="USE_CHAINED_CALLS_GROUP_INDENTS" value="true" />
-  </JSCodeStyleSettings>
   <DBN-PSQL>
     <case-options enabled="true">
       <option name="KEYWORD_CASE" value="lower" />
@@ -45,6 +35,17 @@
       <option name="ITERATION_ELEMENTS_WRAPPING" value="chop_down_if_not_single" />
     </formatting-settings>
   </DBN-SQL>
+  <HTMLCodeStyleSettings>
+    <option name="HTML_DO_NOT_INDENT_CHILDREN_OF" value="" />
+  </HTMLCodeStyleSettings>
+  <JSCodeStyleSettings version="0">
+    <option name="FORCE_SEMICOLON_STYLE" value="true" />
+    <option name="USE_DOUBLE_QUOTES" value="false" />
+    <option name="FORCE_QUOTE_STYlE" value="true" />
+    <option name="ENFORCE_TRAILING_COMMA" value="WhenMultiline" />
+    <option name="USE_CHAINED_CALLS_GROUP_INDENTS" value="true" />
+    <option name="IMPORT_SORT_MODULE_NAME" value="true" />
+  </JSCodeStyleSettings>
   <TypeScriptCodeStyleSettings version="0">
     <option name="FORCE_SEMICOLON_STYLE" value="true" />
     <option name="USE_DOUBLE_QUOTES" value="false" />
@@ -81,6 +82,7 @@
   <codeStyleSettings language="JavaScript">
     <option name="KEEP_BLANK_LINES_IN_CODE" value="1" />
     <option name="ALIGN_MULTILINE_PARAMETERS" value="false" />
+    <option name="SPACE_BEFORE_FOR_PARENTHESES" value="false" />
     <indentOptions>
       <option name="INDENT_SIZE" value="2" />
       <option name="CONTINUATION_INDENT_SIZE" value="2" />
