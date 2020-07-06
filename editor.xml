@@ -1,30 +1,6 @@
 <application>
-  <component name="CodeFoldingSettings">
-    <option name="COLLAPSE_IMPORTS" value="false" />
-    <option name="COLLAPSE_FILE_HEADER" value="false" />
-  </component>
-  <component name="CodeInsightSettings">
-    <option name="PARAMETER_INFO_DELAY" value="1" />
-    <option name="AUTO_POPUP_JAVADOC_INFO" value="true" />
-    <option name="JAVADOC_INFO_DELAY" value="1" />
-    <option name="COMPLETION_CASE_SENSITIVE" value="2" />
-    <option name="REFORMAT_ON_PASTE" value="4" />
-  </component>
-  <component name="DaemonCodeAnalyzerSettings">
-    <option name="AUTOREPARSE_DELAY" value="100" />
-  </component>
-  <component name="DefaultFont">
-    <option name="FONT_SIZE" value="17" />
-    <option name="FONT_FAMILY" value="Droid Sans Mono" />
-  </component>
-  <component name="EditorSettings">
-    <option name="USE_SOFT_WRAPS" value="PREVIEW" />
-    <option name="SOFT_WRAP_FILE_MASKS" value="*.md; *.txt; *.rst; *.adoc" />
-    <option name="TOOLTIPS_DELAY_MS" value="200" />
-    <option name="IS_WHEEL_FONTCHANGE_ENABLED" value="true" />
-  </component>
-  <component name="XmlFoldingSettings">
-    <option name="COLLAPSE_HTML_STYLE_ATTRIBUTE" value="false" />
+  <component name="TodoConfiguration">
+    <pattern pattern="\b(todo|fixme)\b.*" />
   </component>
   <component name="XmlSettings">
     <option name="SHOW_XML_ADD_IMPORT_HINTS" value="false" />
