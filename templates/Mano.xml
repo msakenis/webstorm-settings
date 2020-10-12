@@ -141,4 +141,10 @@
       <option name="JAVA_SCRIPT" value="true" />
     </context>
   </template>
+  <template name="ase" value="(async () =&gt; {&#10;  const res = await $helper$({&#10;&#10;  });&#10;  console.log(`#2020285222932874 $helper$ res`, res);&#10;})();&#10;" description="async self executing function" toReformat="false" toShortenFQNames="true">
+    <variable name="helper" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
 </templateSet>
